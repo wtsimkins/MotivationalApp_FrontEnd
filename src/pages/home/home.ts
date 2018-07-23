@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { TopicPage } from './../topic/topic'
 
 @Component({
   selector: 'page-home',
@@ -12,7 +13,7 @@ export class HomePage {
   }
 
   topics(){
-    
+    this.navCtrl.push(TopicPage);
   }
 
   createAnAccount(){
