@@ -1,17 +1,19 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
-</ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+  <ion-navbar>
+    <ion-title>MotivateMe</ion-title>
+  </ion-navbar>
+
+</ion-header>
+<ion-content padding="true" class="page-home has-header">
+  <form id="motivateMe-form2" class="list">
+    <label class="item item-input" id="motivateMe-input3" name="Email">
+      <input type="email" placeholder="Email">
+    </label>
+    <label class="item item-input" id="motivateMe-input4" name="Password">
+      <input type="password" placeholder="Password">
+    </label>
+  </form>
+  <a ui-sref="topics()" id="motivateMe-button1" class="button">Login</a>
+  <a ui-sref="createAnAccount()" id="motivateMe-button2" class="button">Or create an account</a>
 </ion-content>
