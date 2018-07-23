@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { CreateTopicPage } from './../create-topic/create-topic';
 
 /**
- * Generated class for the TopicPage page.
+ * Generated class for the CreateTopicPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,20 +10,16 @@ import { CreateTopicPage } from './../create-topic/create-topic';
 
 @IonicPage()
 @Component({
-  selector: 'page-topic',
-  templateUrl: 'topic.html',
+  selector: 'page-create-topic',
+  templateUrl: 'create-topic.html',
 })
-export class TopicPage {
+export class CreateTopicPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad TopicPage');
-  }
-
-  createTopic(){
-    this.navCtrl.push(CreateTopicPage);
+    console.log('ionViewDidLoad CreateTopicPage');
   }
 
 }
