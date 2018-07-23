@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { TopicPage } from './../topic/topic';
+import { HomePage } from './../home/home';
 
 /**
- * Generated class for the CreateTopicPage page.
+ * Generated class for the CreateAccountPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,20 +11,20 @@ import { TopicPage } from './../topic/topic';
 
 @IonicPage()
 @Component({
-  selector: 'page-create-topic',
-  templateUrl: 'create-topic.html',
+  selector: 'page-create-account',
+  templateUrl: 'create-account.html',
 })
-export class CreateTopicPage {
+export class CreateAccountPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad CreateTopicPage');
+    console.log('ionViewDidLoad CreateAccountPage');
   }
 
-  topic(){
-    this.navCtrl.push(TopicPage);
+  createAccount(){
+    this.navCtrl.push(HomePage);
   }
 
 }

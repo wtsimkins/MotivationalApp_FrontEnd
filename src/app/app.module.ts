@@ -8,6 +8,8 @@ import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TopicPage } from '../pages/topic/topic';
 import { CreateTopicPage } from '../pages/create-topic/create-topic';
+import { CreateAccountPage } from '../pages/create-account/create-account';
+import { InboxPage } from '../pages/inbox/inbox';
 import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -21,6 +23,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     TopicPage,
     CreateTopicPage,
+    CreateAccountPage,
+    InboxPage,
     TabsPage
   ],
   imports: [
@@ -35,6 +39,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     TopicPage,
     CreateTopicPage,
+    CreateAccountPage,
+    InboxPage,
     TabsPage
   ],
   providers: [

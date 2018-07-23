@@ -22,4 +22,7 @@ export class InboxPage {
     console.log('ionViewDidLoad InboxPage');
   }
 
+  inbox(){
+
+  }
 }
