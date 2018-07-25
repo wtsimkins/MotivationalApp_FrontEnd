@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { HomePage } from './../home/home';
 
 /**
- * Generated class for the CreateAccountPage page.
+ * Generated class for the ForumPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,25 +10,20 @@ import { HomePage } from './../home/home';
 
 @IonicPage()
 @Component({
-  selector: 'page-create-account',
-  templateUrl: 'create-account.html',
+  selector: 'page-forum',
+  templateUrl: 'forum.html',
 })
-export class CreateAccountPage {
+export class ForumPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad CreateAccountPage');
+    console.log('ionViewDidLoad ForumPage');
   }
 
-  createAccount(){
-    this.navCtrl.push(HomePage);
-  }
-
-  motivateMe(){
+  forum(){
     
-    this.navCtrl.push(HomePage);
   }
 
 }
