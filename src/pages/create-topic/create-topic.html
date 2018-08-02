@@ -14,16 +14,19 @@
 
 
 <ion-content padding="true" class="has-header">
+  <div class="createtopic-wrapper">
   <form id="createATopic-form6" class="list">
     <label class="item item-input" id="createATopic-input9">
-      <input type="text" placeholder="Topic Name">
+      <input type="text" placeholder="Topic Name" class="field">
     </label>
     <div class="spacer" style="width: 300px; height: 35px;"></div>
     <label class="item item-input" id="createATopic-textarea3" name="Description">
-      <span class="input-label"></span><textarea placeholder="Description of Topic"></textarea></label>
+      <span class="input-label"></span><textarea placeholder="Description of Topic" class="field"></textarea></label>
     <div class="spacer" style="width: 300px; height: 38px;"></div>
     <label class="item item-input" id="createATopic-textarea4" name="Advice and Strategies">
-      <span class="input-label"></span><textarea placeholder="Advice and Strategies"></textarea></label>
+      <span class="input-label"></span><textarea placeholder="Advice and Strategies" class="field"></textarea></label>
   </form>
-  <a (click)="topics()" id="createATopic-button11" class="button button-calm button-block">Save Topic</a>
+  
+  <button ion-button block id="createATopic-button11" a (click)="topics()">Save topic</button>
+</div>
 </ion-content>

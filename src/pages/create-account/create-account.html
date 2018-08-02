@@ -12,19 +12,20 @@
 
 </ion-header>
 <ion-content padding="true" class="has-header">
+  <div class="createaccount-wrapper">
     <form id="createAnAccount-form3" class="list">
       <ion-list id="createAnAccount-list1">
         <label class="item item-input" id="createAnAccount-input5">
-          <input type="text" placeholder="Name">
+          <input type="text" placeholder="Name" class="field">
         </label>
         <label class="item item-input" id="createAnAccount-input6">
-          <input type="email" placeholder="Email">
+          <input type="email" placeholder="Email" class="field">
         </label>
         <label class="item item-input" id="createAnAccount-input7">
-          <input type="text" placeholder="Password">
+          <input type="text" placeholder="Password" class="field">
         </label>
       </ion-list>
-      <button ion-button block id="createAnAccount-button3" a (click)= "motivateMe()">Sign up</button>
+      <button ion-button block id="createAnAccount-button3" a (click)= "createAccount()">Sign up</button>
     </form>
-
+  </div>
 </ion-content>

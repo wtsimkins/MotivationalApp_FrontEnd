@@ -13,16 +13,17 @@
 </ion-header>
 
 <ion-content padding="true" class="has-header">
-  <a (click)="createTopic()" class="button ion-button block">Create Topic</a>
+  <div class="topic-wrapper">
 
-  <form id="topics-form5" class="list">
+  <!-- <form id="topics-form5" class="list">
     <label class="item item-input" id="topics-search1">
       <i class="icon ion-search placeholder-icon"></i>
-      <input type="search" placeholder="Search for Topic">
+      <input type="search" placeholder="Search for Topic" class="field">
     </label>
-  </form>
-  <a ui-sref="createATopic()" id="topics-button10" class="button button-positive button-block">Create a New Topic</a>
-  <ion-list id="topics-list2">
+  </form> -->
+
+  <button ion-button block id="topics-button10" a (click)="createATopic()">Create a Topic</button>
+  <!-- <ion-list id="topics-list2">
     <ion-item class="item-icon-left" id="topics-list-item1">
       <i class="icon ion-ios-information"></i>Quitting Smoking</ion-item>
     <ion-item class="item-icon-left" id="topics-list-item2">
@@ -33,5 +34,6 @@
       <i class="icon ion-ios-information"></i>Working Out</ion-item>
     <ion-item class="item-icon-left" id="topics-list-item5">
       <i class="icon ion-ios-information"></i>Public Speaking</ion-item>
-  </ion-list>
+  </ion-list> -->
+  </div>
 </ion-content>

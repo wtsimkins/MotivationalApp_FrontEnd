@@ -15,7 +15,7 @@ export class HomePage {
 
   }
 
-  // public apiProvider: ApiProvider
+//   public apiProvider: ApiProvider
 
 //   ngOnInit() {
 //   this.loadUsers();

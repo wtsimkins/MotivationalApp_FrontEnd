@@ -14,4 +14,13 @@ export class ApiProvider {
     console.log('Hello ApiProvider Provider');
   }
 
+  getTopics() {
+    this.http.get("http://localhost:8100/topics")
+  }
+
+  getUsers(Userid) {
+    this.http.get("http://localhost:8100/users")
+  }
+
+
 }

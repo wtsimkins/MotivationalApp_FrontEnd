@@ -23,7 +23,7 @@ export class CreateTopicPage {
     console.log('ionViewDidLoad CreateTopicPage');
   }
 
-  topic(){
+  topics(){
     this.navCtrl.push(TopicPage);
   }
 
