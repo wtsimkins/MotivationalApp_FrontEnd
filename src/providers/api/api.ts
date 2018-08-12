@@ -15,11 +15,11 @@ export class ApiProvider {
   }
 
   getTopics() {
-    this.http.get("http://localhost:8100/topics")
+    this.http.get("http://localhost:8080/topics")
   }
 
   getUsers(Userid) {
-    this.http.get("http://localhost:8100/users")
+    this.http.get("http://localhost:8080/users")
   }
 
 
